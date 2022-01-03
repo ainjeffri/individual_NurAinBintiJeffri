@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=2">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column {
+  float: right;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #212F3C;
+  color: Pink;
+}
+
+.container {
+  padding: 0 8px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: purple;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<body background="image/pastel.jpg"> 
+<body>
+<center>
+  <p><img src="image/Family.jpeg"width="500" height="333"></p>
+<div class="about-section">
+  <h1><marquee direction="right"><font face="Papyrus" size="7">MY FAMILY</font></marquee></h1>
+  <p><font face="Monotype Corsiva" font size="5">All about four of us</font></p>
+ <a href="#father"><font color="#f2f2f2">JEFFRI OSMAN</font></a> |
+ <a href="#mother"><font color="#f2f2f2">ROHENA BASIR</font></a> |
+ <a href="#brother"><font color="#f2f2f2">NURLYANA</font></a> |
+ <a href="#sister"><font color="#f2f2f2">NURZAHIRAH</font></a> 
+</div>
+
+<h2 style="text-align:center"><font face="Elephant">My Squad</font></h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+        <h2><a name="Father">JEFFRI BIN OSMAN </a></h2>
+        <p class="title">Father (54 Years Old)</p>
+        <p><font face="Forte">THE COOL DAD EVER!</font></p>
+        <p>WORKING AT PENANG GOLF CLUB</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <h2><a name="Mother">ROHENA BINTI BASIR</a></h2>
+        <p class="title">Mother (53 Years Old)</p>
+        <p><font face="Forte">THE BEST MOM EVER!</font></p>
+        <p>WORKING AS SUPERVISOR.</p>
+        
+      </div>
+    </div>
+  </div>
+  
+<div class="column">
+    <div class="card">
+        <h2><a name="Older Sister">NURLYANA JEFFRI</a></h2>
+        <p class="title">Older Sister (29 Years Old)</p>
+        <p>WORKING AS TECHNICIAN</p>
+       
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+        <h2><a name="sister">NURZAHIRAH JEFFRI</a></h2>
+        <p class="title">Sister (26 Years Old)</p>
+        <p>WORKING AS SUPERVISOR </p>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
